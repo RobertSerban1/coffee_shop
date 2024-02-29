@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis:wght@300&family=Montserrat:wght@200&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Chestionar</title>
+  </head>
+  <body>
+    <h1>Imbunatim experienta!</h1>
+    <div class="meniu4">
+      <nav>
+        <ul>
+          <li><a href="index.html">Acasa</a></li>
+          <li><a href="Productie.html">Productie</a></li>
+          <li><a href="Produse.html">Produse</a></li>
+          <li><a href="Chestionar.html">Chestionar</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <form action="cafea.php" method="post">
+      <fieldset>
+        <legend>
+          Informatii personale
+        </legend>
+        Numele tau <br>
+        <input type="text" name="name"><br>
+        Adresa de mail<br>
+        <input type="email" name="email" required placeholder="Introdu o adresa de mail"><br>
+      </fieldset><br>
+      <fieldset>
+      <legend>
+        Experienta ta cu Robert Serban's Limited
+      </legend>
+      <br>
+      <textarea cols="20" rows="5"> Scrie cateva cuvinte despre experienta cu echipa noastra
+      </textarea><br><br>
+      Ai recomanda cafeneaua noastra?
+      <br>
+      <input type="radio" name="radio" value="r1">Da
+      <br>
+      <input type="radio" name="radio" value=""r2>Nu<br><br>
+      Care cafea ti-a placut cel mai mult?<br>
+      <input type="checkbox" name="checkbox" value="ch1">Espresso<br>
+      <input type="checkbox" name="checkbox" value="ch2">Moccacino<br>
+      <input type="checkbox" name="checkbox" value="ch3">Specialitatea casei<br><br>
+      <input class="send" type="submit" value="Trimite">
+      </fieldset>
+      </form>
+
+
+  </body>
+</html>
